@@ -1,5 +1,7 @@
-# MCU_T
-Adapter boards to attach some common small DIP form factor microcontroller boards directly to "Model T" computers.<br>
+# MonT
+MCU on Model T computers
+
+Adapter boards to attach some common, small, DIP form factor microcontroller boards directly to "Model T" computers.<br>
 Particularly, boards with integrated SD card readers, for use with [PDDuino](https://github.com/bkw777/PDDuino).<br>
 You can power the microcontroller board from the computer using a [BCR-USB power adapter](https://github.com/bkw777/BCR_Breakout)<br>
 
@@ -26,8 +28,8 @@ coming:
 
 
 ## Adafruit Feather
-![](PDDuino_Feather_1.jpg)  
-![](PDDuino_Feather_2.jpg)
+![](MonT_Feather_1.jpg)  
+![](MonT_Feather_2.jpg)
 
 Get the PCB from OSHPark: <https://oshpark.com/shared_projects/0NVCii0o><br>
 Get the parts from Digi-Key: <https://www.digikey.com/short/zr423m><br>
