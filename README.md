@@ -32,7 +32,7 @@ coming:
 ![](MonT_Feather_2.jpg)
 
 Get the PCB from OSHPark: <https://oshpark.com/shared_projects/0NVCii0o><br>
-Get the parts from Digi-Key: <https://www.digikey.com/short/zr423m><br>
+Get the parts from Digi-Key: <https://www.digikey.com/short/zrb4mr><br>
 
 The Digi-Key cart includes everything, including things you may not need.  
 You may want to remove:  
