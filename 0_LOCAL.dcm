@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Adafruit_Feather
+D IC MCU 8BIT 32KB FLASH 44TQFP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Jumper_2_Bridged
+D Jumper, 2-pole, closed/bridged
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP MAX3232
+D Dual RS232 driver/receiver, 3-5V supply
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP Net-Tie_2
+D Net tie, 2 pins
+K net tie short
+F ~
+$ENDCMP
+#
+$CMP Net-Tie_3_Tee
+D Net tie, 3 pins, tee
+K net tie short
+F ~
+$ENDCMP
+#
+#End Doc Library
