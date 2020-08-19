@@ -31,7 +31,7 @@ coming:
 ![](MonT_Feather_1.jpg)  
 ![](MonT_Feather_2.jpg)
 
-Get the PCB from OSHPark: <https://oshpark.com/shared_projects/0NVCii0o><br>
+Get the PCB from OSHPark: <https://oshpark.com/shared_projects/BrN84Pyj><br>
 Get the parts from Digi-Key: <https://www.digikey.com/short/zrb4mr><br>
 
 The Digi-Key cart includes everything, including things you may not need.  
