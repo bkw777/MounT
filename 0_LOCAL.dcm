@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
 $CMP Adafruit_Feather
 D IC MCU 8BIT 32KB FLASH 44TQFP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf
@@ -32,6 +42,12 @@ $ENDCMP
 $CMP Net-Tie_3_Tee
 D Net tie, 3 pins, tee
 K net tie short
+F ~
+$ENDCMP
+#
+$CMP R_Small_US
+D Resistor, small US symbol
+K r resistor
 F ~
 $ENDCMP
 #
