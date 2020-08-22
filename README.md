@@ -47,14 +47,9 @@ You may want to remove:
 This adapter works for both the 32u4 and the M0 versions of Adalogger, as well as all other Feather boards.  
 Adalogger 32u4 and M0 are useful to run PDDuino to make a TPDD emulator.
 
-## Teensy 3.5
-coming
-
-## Teensy 3.6
-coming
-
-## Teensy 4.1
-coming
+## Teensy
+![](MonT_Teensy_1.jpg)
+![](MonT_Teensy_2.jpg)
 
 ## Heltec HTIT-W8266
 coming

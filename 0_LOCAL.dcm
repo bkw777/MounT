@@ -51,4 +51,14 @@ K r resistor
 F ~
 $ENDCMP
 #
+$CMP Teensy_35_36
+D IC MCU 8BIT 32KB FLASH 44TQFP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf
+$ENDCMP
+#
+$CMP Teensy_35_36_
+D IC MCU 8BIT 32KB FLASH 44TQFP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf
+$ENDCMP
+#
 #End Doc Library
