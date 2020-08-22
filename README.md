@@ -48,8 +48,9 @@ This adapter works for both the 32u4 and the M0 versions of Adalogger, as well a
 Adalogger 32u4 and M0 are useful to run PDDuino to make a TPDD emulator.
 
 ## Teensy
-![](MonT_Teensy_1.jpg)
-![](MonT_Teensy_2.jpg)
+![](MonT_Teensy_1.jpg)  
+![](MonT_Teensy_2.jpg)  
+![](MonT_Teensy_3.jpg)
 
 PCB from OSHPark: <https://oshpark.com/shared_projects/YRLMUJzR>
 
