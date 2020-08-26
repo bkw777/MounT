@@ -288,8 +288,6 @@ Wire Wire Line
 	4700 4700 3900 4700
 Wire Wire Line
 	3900 4700 3900 2600
-Wire Wire Line
-	3900 2600 3500 2600
 Text Label 3300 2600 0    50   ~ 0
 DSR_TTL
 Text Label 4700 4700 2    50   ~ 0
@@ -320,28 +318,6 @@ F 3 "~" H 7770 4020 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7770 4120 7770 4170
-$Comp
-L 0_LOCAL:R_Small_US R1
-U 1 1 5F3E0320
-P 3500 2700
-F 0 "R1" H 3530 2710 50  0000 L CNN
-F 1 "15k" H 3510 2640 50  0000 L CNN
-F 2 "0_LOCAL:R_0805" H 3500 2700 50  0001 C CNN
-F 3 "~" H 3500 2700 50  0001 C CNN
-	1    3500 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 0_LOCAL:GND #PWR0108
-U 1 1 5F3E0D9B
-P 3500 2800
-F 0 "#PWR0108" H 3500 2550 50  0001 C CNN
-F 1 "GND" H 3500 2670 50  0000 C CNN
-F 2 "" H 3500 2800 50  0001 C CNN
-F 3 "" H 3500 2800 50  0001 C CNN
-	1    3500 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 4100 4200 2300
 Wire Wire Line
@@ -441,9 +417,8 @@ F 3 "" H 1000 5800 50  0001 C CNN
 	1    1000 5800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3500 2600
-Wire Wire Line
-	3300 2600 3500 2600
 Text Notes 2400 1630 2    50   ~ 0
 Teensy 3.5, 3.6, 4.1
+Wire Wire Line
+	3300 2600 3900 2600
 $EndSCHEMATC

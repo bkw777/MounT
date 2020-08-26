@@ -294,17 +294,17 @@ F 3 "" H 6200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 3180 6100 0    50   ~ 0
-S1: [En]able has internal pullup.\nBoard is OFF when closed, ON when open.\nDIP Switch "ON" label will be misleading, so scratch it off.\nPCB silkscreen has ON/OFF labels.
+S1: Optional. Only needed when attatching a lipo battery.\n[En]able has internal pullup.\nBoard is OFF when closed, ON when open.\nDIP Switch "ON" label will be misleading, so scratch it off.\nPCB silkscreen has ON/OFF labels.
 $Comp
 L 0_LOCAL:Jumper_2_Bridged JP1
 U 1 1 5F3DBD1F
 P 7970 4370
-F 0 "JP1" H 7850 4430 50  0000 C CNN
+F 0 "JP1" H 7970 4350 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 8000 4480 50  0001 C CNN
-F 2 "0_LOCAL:JP_H" H 7970 4370 50  0001 C CNN
+F 2 "0_LOCAL:PinHeader_1x02_P2.54mm_Horizontal" H 7970 4370 50  0001 C CNN
 F 3 "~" H 7970 4370 50  0001 C CNN
 	1    7970 4370
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8210 4370 8170 4370
@@ -363,8 +363,6 @@ Wire Wire Line
 	4700 4700 3800 4700
 Wire Wire Line
 	3800 4700 3800 4460
-Wire Wire Line
-	3800 4460 3380 4460
 Text Label 3150 4460 0    50   ~ 0
 DSR_TTL
 Text Label 4700 4700 2    50   ~ 0
@@ -395,29 +393,6 @@ F 3 "~" H 7770 4020 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7770 4120 7770 4170
-$Comp
-L 0_LOCAL:R_Small_US R1
-U 1 1 5F3E0320
-P 3380 4560
-F 0 "R1" H 3450 4620 50  0000 L CNN
-F 1 "15k" H 3450 4520 50  0000 L CNN
-F 2 "0_LOCAL:R_0805" H 3380 4560 50  0001 C CNN
-F 3 "~" H 3380 4560 50  0001 C CNN
-	1    3380 4560
-	1    0    0    -1  
-$EndComp
-Connection ~ 3380 4460
 Wire Wire Line
-	3380 4460 3150 4460
-$Comp
-L 0_LOCAL:GND #PWR0108
-U 1 1 5F3E0D9B
-P 3380 4660
-F 0 "#PWR0108" H 3380 4410 50  0001 C CNN
-F 1 "GND" H 3400 4470 50  0000 C CNN
-F 2 "" H 3380 4660 50  0001 C CNN
-F 3 "" H 3380 4660 50  0001 C CNN
-	1    3380 4660
-	1    0    0    -1  
-$EndComp
+	3150 4460 3800 4460
 $EndSCHEMATC
