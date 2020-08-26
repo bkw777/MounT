@@ -32,24 +32,21 @@ coming:
 ![](MonT_Feather_1.jpg)  
 ![](MonT_Feather_2.jpg)
 
-Get the PCB from OSHPark: <https://oshpark.com/shared_projects/BrN84Pyj><br>
-Get the parts from Digi-Key: <https://www.digikey.com/short/zrv0fh><br>
-
-The Digi-Key cart includes everything, including things you may not need.  
-You may want to remove:  
-* Battery - you can get power from the BCR port, or you might already have one  
-* Socket headers - you can solder the Feather board directly  
-* Adalogger - you might already have one
+PCB: <https://oshpark.com/shared_projects/SJvmg6U8><br>
+Minimum BOM: <https://www.digikey.com/short/zr1w1h><br>
+Everything BOM: <https://www.digikey.com/short/zr1dph><br>
 
 This adapter works for both the 32u4 and the M0 versions of Adalogger, as well as all other Feather boards.  
-Adalogger 32u4 and M0 are useful to run PDDuino to make a TPDD emulator.
+Adalogger 32u4 and M0 are useful to run [PDDuino](https://github.com/bkw777/PDDuino).
+
 
 ### Teensy
 ![](MonT_Teensy_1.jpg)  
 ![](MonT_Teensy_2.jpg)  
-![](MonT_Teensy_3.jpg)
+![](MonT_Teensy_3.jpg) 
 
-PCB from OSHPark: <https://oshpark.com/shared_projects/YRLMUJzR>
+PCB: <https://oshpark.com/shared_projects/S8etnOx1>
+Minimum BOM: <https://www.digikey.com/short/zr1w1h><br>
 
 ### Heltec HTIT-W8266
 coming

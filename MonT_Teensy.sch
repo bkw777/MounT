@@ -4,8 +4,8 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "MonT_Feather - MCU on Model T, Teensy 3.5, 3.6, 4.1"
-Date "2020-08-19"
+Title "MonT_Teensy - MCU on Model T, Teensy 3.5, 3.6, 4.1"
+Date "2020-08-26"
 Rev ""
 Comp "Brian K. White"
 Comment1 ""
