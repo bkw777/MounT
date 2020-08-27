@@ -4,8 +4,8 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "MonT_Feather - MCU on Model T, Adafruit Feather"
-Date "2020-08-19"
+Title "Teensy MounT - Teensy 3.5, 3.6, 4.1 on Model T"
+Date "2020-08-26"
 Rev ""
 Comp "Brian K. White"
 Comment1 ""
@@ -29,18 +29,6 @@ Text Label 8210 3470 2    50   ~ 0
 RI
 Text Notes 8470 2420 2    50   ~ 0
 TRS-80 Model 100
-$Comp
-L 0_LOCAL:Adafruit_Feather J1
-U 1 1 5F3C661A
-P 2550 4260
-F 0 "J1" H 2490 4380 60  0000 L CNN
-F 1 "Adafruit_Feather" V 2760 3930 60  0000 L CNN
-F 2 "0_LOCAL:Adafruit_Feather" H 925 2285 60  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf" H 925 2385 60  0001 L CNN
-F 4 "Active" H 2750 5460 60  0001 L CNN "Status"
-	1    2550 4260
-	-1   0    0    -1  
-$EndComp
 Text Label 8210 3770 2    50   ~ 0
 DCD
 $Comp
@@ -78,17 +66,13 @@ Wire Wire Line
 Wire Wire Line
 	6900 4100 6300 4100
 Wire Wire Line
-	4700 4500 4200 4500
+	4700 4500 4100 4500
 Wire Wire Line
-	4200 4500 4200 3860
+	4100 4500 4100 2200
 Wire Wire Line
-	4200 3860 3150 3860
+	4700 4100 4200 4100
 Wire Wire Line
-	4700 4100 3800 4100
-Wire Wire Line
-	3800 4100 3800 3960
-Wire Wire Line
-	3800 3960 3150 3960
+	4200 2300 3300 2300
 $Comp
 L 0_LOCAL:GND #PWR04
 U 1 1 5F470CB7
@@ -112,26 +96,15 @@ F 3 "" H 5500 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0_LOCAL:GND #PWR02
-U 1 1 5F47279A
-P 2650 5560
-F 0 "#PWR02" H 2650 5310 50  0001 C CNN
-F 1 "GND" H 2700 5370 50  0000 C CNN
-F 2 "" H 2650 5560 50  0001 C CNN
-F 3 "" H 2650 5560 50  0001 C CNN
-	1    2650 5560
-	1    0    0    -1  
-$EndComp
-$Comp
 L 0_LOCAL:GND #PWR01
 U 1 1 5F472B1C
-P 2550 5560
-F 0 "#PWR01" H 2550 5310 50  0001 C CNN
-F 1 "GND" H 2600 5370 50  0000 C CNN
-F 2 "" H 2550 5560 50  0001 C CNN
-F 3 "" H 2550 5560 50  0001 C CNN
-	1    2550 5560
-	1    0    0    -1  
+P 1000 3300
+F 0 "#PWR01" H 1000 3050 50  0001 C CNN
+F 1 "GND" V 1000 3120 50  0000 C CNN
+F 2 "" H 1000 3300 50  0001 C CNN
+F 3 "" H 1000 3300 50  0001 C CNN
+	1    1000 3300
+	0    1    1    0   
 $EndComp
 $Comp
 L 0_LOCAL:C C2
@@ -219,9 +192,9 @@ Text Label 6300 4100 0    50   ~ 0
 RXD
 Text Label 6300 4500 0    50   ~ 0
 TXD
-Text Label 3150 3860 0    50   ~ 0
+Text Label 3300 2200 0    50   ~ 0
 RXD_TTL
-Text Label 3150 3960 0    50   ~ 0
+Text Label 3300 2300 0    50   ~ 0
 TXD_TTL
 Text Label 4700 4500 2    50   ~ 0
 RXD_TTL
@@ -238,35 +211,6 @@ F 3 "" H 8210 5170 50  0001 C CNN
 	1    8210 5170
 	0    1    1    0   
 $EndComp
-$Comp
-L 0_LOCAL:SW_DS04-254-1L-01BK S1
-U 1 1 5F447651
-P 3600 5360
-F 0 "S1" H 3600 5500 50  0000 C CNN
-F 1 "DS04-254-1L-01BK" H 3600 5570 50  0001 C CNN
-F 2 "0_LOCAL:SW_DS04-254-1L-01BK" H 3600 5360 50  0001 L BNN
-F 3 "V0.0" H 3600 5360 50  0001 L BNN
-F 4 "CUI Inc." H 3600 5360 50  0001 L BNN "Field4"
-F 5 "3.96 mm" H 3600 5360 50  0001 L BNN "Field5"
-F 6 "Manufacturer Recommendations" H 3600 5360 50  0001 L BNN "Field6"
-	1    3600 5360
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 5360 3300 5360
-$Comp
-L 0_LOCAL:GND #PWR0103
-U 1 1 5F44ACEF
-P 3900 5360
-F 0 "#PWR0103" H 3900 5110 50  0001 C CNN
-F 1 "GND" H 3950 5170 50  0000 C CNN
-F 2 "" H 3900 5360 50  0001 C CNN
-F 3 "" H 3900 5360 50  0001 C CNN
-	1    3900 5360
-	1    0    0    -1  
-$EndComp
-Text Label 3150 5360 0    50   ~ 0
-En
 Wire Wire Line
 	7000 3600 6800 3600
 $Comp
@@ -293,18 +237,16 @@ F 3 "" H 6200 2700 50  0001 C CNN
 	1    6200 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 3180 6100 0    50   ~ 0
-S1: Optional. Only needed when attatching a lipo battery.\n[En]able has internal pullup.\nBoard is OFF when closed, ON when open.\nDIP Switch "ON" label will be misleading, so scratch it off.\nPCB silkscreen has ON/OFF labels.
 $Comp
 L 0_LOCAL:Jumper_2_Bridged JP1
 U 1 1 5F3DBD1F
 P 7970 4370
-F 0 "JP1" H 7970 4350 50  0000 C CNN
+F 0 "JP1" H 7850 4430 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 8000 4480 50  0001 C CNN
-F 2 "0_LOCAL:PinHeader_1x02_P2.54mm_Horizontal" H 7970 4370 50  0001 C CNN
+F 2 "0_LOCAL:JP_H" H 7970 4370 50  0001 C CNN
 F 3 "~" H 7970 4370 50  0001 C CNN
 	1    7970 4370
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8210 4370 8170 4370
@@ -312,17 +254,6 @@ Wire Wire Line
 	8210 4570 7770 4570
 Wire Wire Line
 	7770 4570 7770 4370
-$Comp
-L 0_LOCAL:+3V3 #PWR0106
-U 1 1 5F3FB811
-P 2050 3460
-F 0 "#PWR0106" H 2050 3310 50  0001 C CNN
-F 1 "+3V3" H 2030 3600 50  0000 C CNN
-F 2 "" H 2050 3460 50  0001 C CNN
-F 3 "" H 2050 3460 50  0001 C CNN
-	1    2050 3460
-	1    0    0    -1  
-$EndComp
 $Comp
 L 0_LOCAL:+3V3 #PWR0107
 U 1 1 5F400D96
@@ -350,20 +281,14 @@ Wire Wire Line
 Text Label 6300 4300 0    50   ~ 0
 DSR
 Wire Wire Line
-	3150 4360 3800 4360
-Wire Wire Line
-	3800 4360 3800 4300
-Wire Wire Line
-	3800 4300 4700 4300
-Text Label 3150 4360 0    50   ~ 0
-DTR_TTL
+	4000 4300 4700 4300
 Text Label 4700 4300 2    50   ~ 0
 DTR_TTL
 Wire Wire Line
-	4700 4700 3800 4700
+	4700 4700 3900 4700
 Wire Wire Line
-	3800 4700 3800 4460
-Text Label 3150 4460 0    50   ~ 0
+	3900 4700 3900 2600
+Text Label 3300 2600 0    50   ~ 0
 DSR_TTL
 Text Label 4700 4700 2    50   ~ 0
 DSR_TTL
@@ -394,5 +319,106 @@ $EndComp
 Wire Wire Line
 	7770 4120 7770 4170
 Wire Wire Line
-	3150 4460 3800 4460
+	4200 4100 4200 2300
+Wire Wire Line
+	4000 2500 4000 4300
+Text Label 3300 2500 0    50   ~ 0
+DTR_TTL
+$Comp
+L 0_LOCAL:Teensy3.5 J1
+U 1 1 5F3C661A
+P 2150 4250
+F 0 "J1" H 2090 4370 60  0000 L CNN
+F 1 "Teensy" V 2360 3920 60  0000 L CNN
+F 2 "0_LOCAL:Teensy35_36" H 525 2275 60  0001 L CNN
+F 3 "" H 525 2375 60  0001 L CNN
+F 4 "Active" H 2350 5450 60  0001 L CNN "Status"
+	1    2150 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2200 4100 2200
+Wire Wire Line
+	4000 2500 3300 2500
+$Comp
+L 0_LOCAL:GND #PWR0103
+U 1 1 5F4DCEBD
+P 1000 4400
+F 0 "#PWR0103" H 1000 4150 50  0001 C CNN
+F 1 "GND" V 1000 4220 50  0000 C CNN
+F 2 "" H 1000 4400 50  0001 C CNN
+F 3 "" H 1000 4400 50  0001 C CNN
+	1    1000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L 0_LOCAL:GND #PWR0109
+U 1 1 5F4DE306
+P 1000 4500
+F 0 "#PWR0109" H 1000 4250 50  0001 C CNN
+F 1 "GND" V 1000 4320 50  0000 C CNN
+F 2 "" H 1000 4500 50  0001 C CNN
+F 3 "" H 1000 4500 50  0001 C CNN
+	1    1000 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L 0_LOCAL:GND #PWR0110
+U 1 1 5F4DEB4B
+P 1000 4600
+F 0 "#PWR0110" H 1000 4350 50  0001 C CNN
+F 1 "GND" V 1000 4420 50  0000 C CNN
+F 2 "" H 1000 4600 50  0001 C CNN
+F 3 "" H 1000 4600 50  0001 C CNN
+	1    1000 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 0_LOCAL:GND #PWR0111
+U 1 1 5F4ED9FD
+P 3300 4700
+F 0 "#PWR0111" H 3300 4450 50  0001 C CNN
+F 1 "GND" V 3300 4520 50  0000 C CNN
+F 2 "" H 3300 4700 50  0001 C CNN
+F 3 "" H 3300 4700 50  0001 C CNN
+	1    3300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0_LOCAL:GND #PWR0112
+U 1 1 5F4F2490
+P 3300 5900
+F 0 "#PWR0112" H 3300 5650 50  0001 C CNN
+F 1 "GND" V 3300 5720 50  0000 C CNN
+F 2 "" H 3300 5900 50  0001 C CNN
+F 3 "" H 3300 5900 50  0001 C CNN
+	1    3300 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0_LOCAL:GND #PWR0115
+U 1 1 5F4FFFE7
+P 3300 2100
+F 0 "#PWR0115" H 3300 1850 50  0001 C CNN
+F 1 "GND" V 3300 1920 50  0000 C CNN
+F 2 "" H 3300 2100 50  0001 C CNN
+F 3 "" H 3300 2100 50  0001 C CNN
+	1    3300 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0_LOCAL:+3V3 #PWR0116
+U 1 1 5F505253
+P 1000 5800
+F 0 "#PWR0116" H 1000 5650 50  0001 C CNN
+F 1 "+3V3" V 990 6000 50  0000 C CNN
+F 2 "" H 1000 5800 50  0001 C CNN
+F 3 "" H 1000 5800 50  0001 C CNN
+	1    1000 5800
+	0    -1   -1   0   
+$EndComp
+Text Notes 2400 1630 2    50   ~ 0
+Teensy 3.5, 3.6, 4.1
+Wire Wire Line
+	3300 2600 3900 2600
 $EndSCHEMATC

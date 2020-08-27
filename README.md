@@ -43,7 +43,6 @@ Adalogger 32u4 and M0 are useful to run [PDDuino](https://github.com/bkw777/PDDu
 ### Teensy
 ![](MonT_Teensy_1.jpg)  
 ![](MonT_Teensy_2.jpg)  
-![](MonT_Teensy_3.jpg) 
 
 PCB: <https://oshpark.com/shared_projects/S8etnOx1>
 Minimum BOM: <https://www.digikey.com/short/zr1w1h><br>
