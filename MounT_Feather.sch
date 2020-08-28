@@ -4,7 +4,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "MonT_Feather - MCU on Model T, Adafruit Feather"
+Title "Feather MounT - Adafruit Feather on Model T serial port"
 Date "2020-08-19"
 Rev ""
 Comp "Brian K. White"
@@ -14,19 +14,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 8210 4970 2    50   ~ 0
-TXD
+TX_232
 Text Label 8210 4770 2    50   ~ 0
-RXD
+RX_232
 Text Label 8210 4570 2    50   ~ 0
-RTS
+RTS_232
 Text Label 8210 4370 2    50   ~ 0
-CTS
+CTS_232
 Text Label 8210 4170 2    50   ~ 0
-DSR
+DSR_232
 Text Label 8210 3870 2    50   ~ 0
-DTR
+DTR_232
 Text Label 8210 3470 2    50   ~ 0
-RI
+RI_232
 Text Notes 8470 2420 2    50   ~ 0
 TRS-80 Model 100
 $Comp
@@ -35,14 +35,14 @@ U 1 1 5F3C661A
 P 2550 4260
 F 0 "J1" H 2490 4380 60  0000 L CNN
 F 1 "Adafruit_Feather" V 2760 3930 60  0000 L CNN
-F 2 "0_LOCAL:Adafruit_Feather" H 925 2285 60  0001 L CNN
+F 2 "0_LOCAL:Adafruit_Feather_stagger" H 925 2285 60  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf" H 925 2385 60  0001 L CNN
 F 4 "Active" H 2750 5460 60  0001 L CNN "Status"
 	1    2550 4260
 	-1   0    0    -1  
 $EndComp
 Text Label 8210 3770 2    50   ~ 0
-DCD
+DCD_232
 $Comp
 L 0_LOCAL:Connector_DB25_Male J2
 U 1 1 5F04B532
@@ -216,17 +216,17 @@ F 3 "" H 7000 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6300 4100 0    50   ~ 0
-RXD
+RX_232
 Text Label 6300 4500 0    50   ~ 0
-TXD
+TX_232
 Text Label 3150 3860 0    50   ~ 0
-RXD_TTL
+RX_TTL
 Text Label 3150 3960 0    50   ~ 0
-TXD_TTL
+TX_TTL
 Text Label 4700 4500 2    50   ~ 0
-RXD_TTL
+RX_TTL
 Text Label 4700 4100 2    50   ~ 0
-TXD_TTL
+TX_TTL
 $Comp
 L 0_LOCAL:GND #PWR0102
 U 1 1 5F41940B
@@ -237,33 +237,6 @@ F 2 "" H 8210 5170 50  0001 C CNN
 F 3 "" H 8210 5170 50  0001 C CNN
 	1    8210 5170
 	0    1    1    0   
-$EndComp
-$Comp
-L 0_LOCAL:SW_DS04-254-1L-01BK S1
-U 1 1 5F447651
-P 3600 5360
-F 0 "S1" H 3600 5500 50  0000 C CNN
-F 1 "DS04-254-1L-01BK" H 3600 5570 50  0001 C CNN
-F 2 "0_LOCAL:SW_DS04-254-1L-01BK" H 3600 5360 50  0001 L BNN
-F 3 "V0.0" H 3600 5360 50  0001 L BNN
-F 4 "CUI Inc." H 3600 5360 50  0001 L BNN "Field4"
-F 5 "3.96 mm" H 3600 5360 50  0001 L BNN "Field5"
-F 6 "Manufacturer Recommendations" H 3600 5360 50  0001 L BNN "Field6"
-	1    3600 5360
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 5360 3300 5360
-$Comp
-L 0_LOCAL:GND #PWR0103
-U 1 1 5F44ACEF
-P 3900 5360
-F 0 "#PWR0103" H 3900 5110 50  0001 C CNN
-F 1 "GND" H 3950 5170 50  0000 C CNN
-F 2 "" H 3900 5360 50  0001 C CNN
-F 3 "" H 3900 5360 50  0001 C CNN
-	1    3900 5360
-	1    0    0    -1  
 $EndComp
 Text Label 3150 5360 0    50   ~ 0
 En
@@ -293,8 +266,8 @@ F 3 "" H 6200 2700 50  0001 C CNN
 	1    6200 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 3180 6100 0    50   ~ 0
-S1: Optional. Only needed when attatching a lipo battery.\n[En]able has internal pullup.\nBoard is OFF when closed, ON when open.\nDIP Switch "ON" label will be misleading, so scratch it off.\nPCB silkscreen has ON/OFF labels.
+Text Notes 2940 5850 0    50   ~ 0
+S1 is optional. Only needed when attatching a lipo battery.\n[En]able has internal pullup.\nBoard is OFF when closed (to GND), ON when open.
 $Comp
 L 0_LOCAL:Jumper_2_Bridged JP1
 U 1 1 5F3DBD1F
@@ -348,7 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 4700 6300 4700
 Text Label 6300 4300 0    50   ~ 0
-DSR
+DSR_232
 Wire Wire Line
 	3150 4360 3800 4360
 Wire Wire Line
@@ -377,7 +350,7 @@ Connection ~ 7770 4170
 Wire Wire Line
 	7770 4170 8210 4170
 Text Label 6300 4700 0    50   ~ 0
-DTR
+DTR_232
 Wire Wire Line
 	7770 3770 8210 3770
 $Comp
@@ -395,4 +368,33 @@ Wire Wire Line
 	7770 4120 7770 4170
 Wire Wire Line
 	3150 4460 3800 4460
+Wire Wire Line
+	3150 5360 3400 5360
+Wire Wire Line
+	3800 5260 3850 5260
+$Comp
+L 0_LOCAL:GND #PWR0103
+U 1 1 5F44ACEF
+P 3850 5260
+F 0 "#PWR0103" H 3850 5010 50  0001 C CNN
+F 1 "GND" H 3900 5070 50  0000 C CNN
+F 2 "" H 3850 5260 50  0001 C CNN
+F 3 "" H 3850 5260 50  0001 C CNN
+	1    3850 5260
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0_LOCAL:CSS-1210xC S1
+U 1 1 5F447651
+P 3600 5260
+F 0 "S1" H 3600 5400 50  0000 C CNN
+F 1 "DS04-254-1L-01BK" H 3600 5470 50  0001 C CNN
+F 2 "0_LOCAL:CSS-121xC" H 3600 5260 50  0001 L BNN
+F 3 "V0.0" H 3600 5260 50  0001 L BNN
+F 4 "CUI Inc." H 3600 5260 50  0001 L BNN "Field4"
+F 5 "3.96 mm" H 3600 5260 50  0001 L BNN "Field5"
+F 6 "Manufacturer Recommendations" H 3600 5260 50  0001 L BNN "Field6"
+	1    3600 5260
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

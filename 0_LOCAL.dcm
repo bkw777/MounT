@@ -11,13 +11,18 @@ K power-flag
 $ENDCMP
 #
 $CMP Adafruit_Feather
-D IC MCU 8BIT 32KB FLASH 44TQFP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf
 $ENDCMP
 #
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CSS-1210xC
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
 F ~
 $ENDCMP
 #
@@ -37,28 +42,6 @@ $CMP Net-Tie_2
 D Net tie, 2 pins
 K net tie short
 F ~
-$ENDCMP
-#
-$CMP Net-Tie_3_Tee
-D Net tie, 3 pins, tee
-K net tie short
-F ~
-$ENDCMP
-#
-$CMP R_Small_US
-D Resistor, small US symbol
-K r resistor
-F ~
-$ENDCMP
-#
-$CMP Teensy_35_36
-D IC MCU 8BIT 32KB FLASH 44TQFP
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf
-$ENDCMP
-#
-$CMP Teensy_35_36_
-D IC MCU 8BIT 32KB FLASH 44TQFP
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf
 $ENDCMP
 #
 #End Doc Library

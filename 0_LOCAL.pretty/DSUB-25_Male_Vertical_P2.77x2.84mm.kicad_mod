@@ -1,4 +1,4 @@
-(module DSUB-25_Male_Vertical_P2.77x2.84mm (layer F.Cu) (tedit 5F423FE0)
+(module DSUB-25_Male_Vertical_P2.77x2.84mm (layer F.Cu) (tedit 5F4932F5)
   (descr "25-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 47.1mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
   (tags "25-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 47.1mm")
   (fp_text reference J2 (at 1.4605 1.2827 180) (layer F.SilkS) hide
@@ -51,7 +51,7 @@
   (pad 23 thru_hole circle (at 26.315 2.84) (size 1.27 1.27) (drill 0.8382) (layers *.Cu *.Mask))
   (pad 24 thru_hole circle (at 29.085 2.84) (size 1.27 1.27) (drill 0.8382) (layers *.Cu *.Mask))
   (pad 25 thru_hole circle (at 31.855 2.84) (size 1.27 1.27) (drill 0.8382) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/0_LOCAL.3dshapes/connector_a-ds_25_pp_z_cut.stp
+  (model ${KIPRJMOD}/0_LOCAL.3dshapes/A_DS_25_PP_Z_cut.step
     (offset (xyz 16.625 -1.42 6.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
