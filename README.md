@@ -46,10 +46,8 @@ BOM: <https://www.digikey.com/short/zf3z0p>
 
 Adafruit Feather Adalogger boards can be powered by a lipo battery instead of, or as well as, the BCR port adapter (or other usb power source).<br>
 The Feather board includes both a JST connector for a lipo cell, and an on-board lipo cell manager so that it charges when you supply power to the usb port, and provides power when there is no power from the usb port.<br>
-The "Everything" BOM includes a battery and enable/disable switch.
 
-Avoid connecting a battery and the BCR port adapter at the same time. The charging circuit on the Feather board will try to charge the battery at 100ma any time there is power available from the usb port. But that is too much current to draw from the BCR port. So, either connect a battery, OR the BCR port adapter, not both at the same time.
-
+Avoid connecting a battery and the BCR port adapter at the same time. The charging circuit on the Feather board will try to charge the battery at 100ma any time there is power available from the usb port. But that is too much current to draw from the BCR port. So, either connect a battery, OR the BCR port adapter, not both at the same time.<br>
 If you are going to use a battery, you can charge it by just connecting any usb power source (except the BCR port adapter) to the usb port.
 
 ### Teensy
