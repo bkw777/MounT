@@ -55,7 +55,7 @@ If you are going to use a battery, you can charge it by just connecting any usb 
 ![](MounT_Teensy_2.jpg)  
 
 PCB: <https://oshpark.com/shared_projects/ce6Cn56L><br>
-BOM: <https://www.digikey.com/short/zf34pp>
+BOM: <https://www.digikey.com/short/zfjrd3>
 
 ### Heltec HTIT-W8266
 coming

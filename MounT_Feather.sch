@@ -397,4 +397,6 @@ F 6 "Manufacturer Recommendations" H 3600 5260 50  0001 L BNN "Field6"
 	1    3600 5260
 	-1   0    0    -1  
 $EndComp
+Text Notes 2930 2650 2    50   ~ 0
+Adafruit Feather
 $EndSCHEMATC
