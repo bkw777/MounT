@@ -18,7 +18,7 @@ These adapter boards provide:
  NEC PC-8201, PC-8201a, PC-8300  
  Olivetti M10  
  Kyotronic KC-85  
- 
+
 These boards employ a staggered row footprint for the pin headers which acts like a friction fit socket to connect the mcu board to the adatpter board without having to solder it permanently and without needing sockets.<br>
 This way the mcu board is still removable like with a socket, yet very low profile when installed like with no socket.<br>
 You can still solder everything or install real sockets if you want. One feature of normal socket headers is they are 8.5mm tall, and that provides a space between the mcu board and the adapter board where you can stuff a lipo battery or the excess usb cable from the BCR port adapter.
