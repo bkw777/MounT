@@ -39,7 +39,8 @@ RTS --- /
 
 ### Adafruit Feather
 ![](MounT_Feather_1.jpg)  
-![](MounT_Feather_2.jpg)
+![](MounT_Feather_2.jpg)  
+![](MounT_Feather.svg)  
 
 PCB: <https://oshpark.com/shared_projects/hvgPV7Mf><br>
 BOM: <https://www.digikey.com/short/zf3z0p>
@@ -53,6 +54,7 @@ If you are going to use a battery, you can charge it by just connecting any usb 
 ### Teensy
 ![](MounT_Teensy_1.jpg)  
 ![](MounT_Teensy_2.jpg)  
+![](MounT_Teensy.svg)  
 
 PCB: <https://oshpark.com/shared_projects/ce6Cn56L><br>
 BOM: <https://www.digikey.com/short/zfjrd3>
