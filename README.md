@@ -42,7 +42,7 @@ RTS --- /
 ![](MounT_Feather_2.jpg)  
 ![](MounT_Feather.svg)  
 
-PCB: <https://oshpark.com/shared_projects/hvgPV7Mf><br>
+PCB: <https://oshpark.com/shared_projects/Wt2RUDE9><br>
 BOM: <https://www.digikey.com/short/zf3z0p>
 
 Adafruit Feather Adalogger boards can be powered by a lipo battery instead of, or as well as, the BCR port adapter (or other usb power source).<br>
@@ -56,7 +56,7 @@ If you are going to use a battery, you can charge it by just connecting any usb 
 ![](MounT_Teensy_2.jpg)  
 ![](MounT_Teensy.svg)  
 
-PCB: <https://oshpark.com/shared_projects/ce6Cn56L><br>
+PCB: <https://oshpark.com/shared_projects/rUOP16yX><br>
 BOM: <https://www.digikey.com/short/zfjrd3>
 
 ### Heltec HTIT-W8266
