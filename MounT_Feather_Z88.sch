@@ -13,22 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 8210 4970 2    50   ~ 0
-TX_232
-Text Label 8210 4770 2    50   ~ 0
+Text Label 8400 4100 2    50   ~ 0
 RX_232
-Text Label 8210 4570 2    50   ~ 0
-RTS_232
-Text Label 8210 4370 2    50   ~ 0
-CTS_232
-Text Label 8210 4170 2    50   ~ 0
-DSR_232
-Text Label 8210 3870 2    50   ~ 0
+Text Label 8400 3800 2    50   ~ 0
 DTR_232
-Text Label 8210 3470 2    50   ~ 0
-RI_232
-Text Notes 8470 2420 2    50   ~ 0
-TRS-80 Model 100
+Text Notes 8960 3070 2    50   ~ 0
+Cambridge Z88
 $Comp
 L 0_LOCAL:Adafruit_Feather J1
 U 1 1 5F3C661A
@@ -41,19 +31,8 @@ F 4 "Active" H 2750 5460 60  0001 L CNN "Status"
 	1    2550 4260
 	-1   0    0    -1  
 $EndComp
-Text Label 8210 3770 2    50   ~ 0
+Text Label 8400 4000 2    50   ~ 0
 DCD_232
-$Comp
-L 0_LOCAL:DB25_Male J2
-U 1 1 5F04B532
-P 8510 3970
-F 0 "J2" H 8450 5450 50  0000 L CNN
-F 1 "DB25_Male" H 8310 5370 50  0000 L CNN
-F 2 "0_LOCAL:DSUB-25_Male_Vertical_P2.77x2.84mm" H 8510 3970 50  0001 C CNN
-F 3 " ~" H 8510 3970 50  0001 C CNN
-	1    8510 3970
-	1    0    0    -1  
-$EndComp
 $Comp
 L Interface_UART:MAX3232 U1
 U 1 1 5F42ADF7
@@ -66,18 +45,6 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf" H 5500 41
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 4500 6300 4500
-Wire Wire Line
-	6700 4970 8210 4970
-Wire Wire Line
-	6700 4500 6700 4970
-Wire Wire Line
-	8210 4770 6900 4770
-Wire Wire Line
-	6900 4770 6900 4100
-Wire Wire Line
-	6900 4100 6300 4100
-Wire Wire Line
 	4700 4500 4200 4500
 Wire Wire Line
 	4200 4500 4200 3860
@@ -89,17 +56,6 @@ Wire Wire Line
 	3800 4100 3800 3960
 Wire Wire Line
 	3800 3960 3150 3960
-$Comp
-L 0_LOCAL:GND #PWR04
-U 1 1 5F470CB7
-P 8210 3970
-F 0 "#PWR04" H 8210 3720 50  0001 C CNN
-F 1 "GND" V 8210 3860 50  0000 R CNN
-F 2 "" H 8210 3970 50  0001 C CNN
-F 3 "" H 8210 3970 50  0001 C CNN
-	1    8210 3970
-	0    1    1    0   
-$EndComp
 $Comp
 L 0_LOCAL:GND #PWR03
 U 1 1 5F471CD5
@@ -227,17 +183,6 @@ Text Label 4700 4500 2    50   ~ 0
 RX_TTL
 Text Label 4700 4100 2    50   ~ 0
 TX_TTL
-$Comp
-L 0_LOCAL:GND #PWR0102
-U 1 1 5F41940B
-P 8210 5170
-F 0 "#PWR0102" H 8210 4920 50  0001 C CNN
-F 1 "GND" V 8210 5060 50  0000 R CNN
-F 2 "" H 8210 5170 50  0001 C CNN
-F 3 "" H 8210 5170 50  0001 C CNN
-	1    8210 5170
-	0    1    1    0   
-$EndComp
 Text Label 3150 5360 0    50   ~ 0
 En
 Wire Wire Line
@@ -271,20 +216,16 @@ S1 is optional. Only needed when attatching a lipo battery.\n[En]able has intern
 $Comp
 L 0_LOCAL:Jumper_2_Bridged JP1
 U 1 1 5F3DBD1F
-P 7800 4370
-F 0 "JP1" H 7800 4350 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 7830 4480 50  0001 C CNN
-F 2 "0_LOCAL:PinHeader_1x02_P2.54mm_Horizontal" H 7800 4370 50  0001 C CNN
-F 3 "~" H 7800 4370 50  0001 C CNN
-	1    7800 4370
+P 7800 3700
+F 0 "JP1" H 7800 3680 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 7830 3810 50  0001 C CNN
+F 2 "0_LOCAL:PinHeader_1x02_P2.54mm_Horizontal" H 7800 3700 50  0001 C CNN
+F 3 "~" H 7800 3700 50  0001 C CNN
+	1    7800 3700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8210 4370 8000 4370
-Wire Wire Line
-	8210 4570 7600 4570
-Wire Wire Line
-	7600 4570 7600 4370
+	7600 3900 7600 3700
 $Comp
 L 0_LOCAL:+3V3 #PWR0106
 U 1 1 5F3FB811
@@ -312,16 +253,8 @@ Wire Wire Line
 Connection ~ 5500 2700
 Wire Wire Line
 	5500 2700 5500 2600
-Wire Wire Line
-	6300 4300 7400 4300
-Wire Wire Line
-	7400 4300 7400 4170
-Wire Wire Line
-	7500 3870 7500 4700
-Wire Wire Line
-	7500 4700 6300 4700
 Text Label 6300 4300 0    50   ~ 0
-DSR_232
+DCD_232
 Wire Wire Line
 	3150 4360 3800 4360
 Wire Wire Line
@@ -340,32 +273,8 @@ Text Label 3150 4460 0    50   ~ 0
 DSR_TTL
 Text Label 4700 4700 2    50   ~ 0
 DSR_TTL
-Wire Wire Line
-	7400 4170 7770 4170
-Wire Wire Line
-	7500 3870 8210 3870
-Wire Wire Line
-	7770 3770 7770 3920
-Connection ~ 7770 4170
-Wire Wire Line
-	7770 4170 8210 4170
 Text Label 6300 4700 0    50   ~ 0
 DTR_232
-Wire Wire Line
-	7770 3770 8210 3770
-$Comp
-L 0_LOCAL:Net-Tie_2 NT1
-U 1 1 5F4812FB
-P 7770 4020
-F 0 "NT1" H 7780 4060 50  0000 C CNN
-F 1 "Net-Tie_2" H 7800 4130 50  0001 C CNN
-F 2 "0_LOCAL:NetTie-2_SMD_10" H 7770 4020 50  0001 C CNN
-F 3 "~" H 7770 4020 50  0001 C CNN
-	1    7770 4020
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7770 4120 7770 4170
 Wire Wire Line
 	3150 4460 3800 4460
 Wire Wire Line
@@ -399,4 +308,61 @@ F 6 "Manufacturer Recommendations" H 3600 5260 50  0001 L BNN "Field6"
 $EndComp
 Text Notes 2930 2650 2    50   ~ 0
 Adafruit Feather
+Text Label 8400 3700 2    50   ~ 0
+CTS_232
+Text Label 8400 3900 2    50   ~ 0
+RTS_232
+Text Notes 7310 5020 0    40   ~ 0
+archive.org/details/aa153-Z88_User_Guide/page/n235\n(NOT a standard RS-232 DE9 pinout)
+NoConn ~ 8400 4400
+$Comp
+L 0_LOCAL:GND #PWR04
+U 1 1 5F470CB7
+P 8400 4200
+F 0 "#PWR04" H 8400 3950 50  0001 C CNN
+F 1 "GND" V 8400 4090 50  0000 R CNN
+F 2 "" H 8400 4200 50  0001 C CNN
+F 3 "" H 8400 4200 50  0001 C CNN
+	1    8400 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L 0_LOCAL:DE9_Male J2
+U 1 1 5F04B532
+P 8700 4100
+F 0 "J2" H 8620 5010 50  0000 L CNN
+F 1 "DE9_Male" H 8500 4880 50  0000 L CNN
+F 2 "0_LOCAL:DSUB-9_Male_Vertical_P2.77x2.84mm" H 8700 4100 50  0001 C CNN
+F 3 " ~" H 8700 4100 50  0001 C CNN
+	1    8700 4100
+	1    0    0    -1  
+$EndComp
+Text Label 8400 4300 2    50   ~ 0
+TX_232
+Wire Wire Line
+	8400 3700 8000 3700
+Wire Wire Line
+	7600 3900 8400 3900
+Wire Wire Line
+	6300 4300 7300 4300
+Wire Wire Line
+	7300 4300 7300 4000
+Wire Wire Line
+	6300 4500 7500 4500
+Wire Wire Line
+	7500 4500 7500 4300
+Wire Wire Line
+	6300 4700 7900 4700
+Wire Wire Line
+	7900 4700 7900 3800
+Wire Wire Line
+	7900 3800 8400 3800
+Wire Wire Line
+	6300 4100 8400 4100
+Wire Wire Line
+	7300 4000 8400 4000
+Wire Wire Line
+	7500 4300 8400 4300
+Text Notes 6640 4300 0    50   ~ 0
+(DSR_232)
 $EndSCHEMATC

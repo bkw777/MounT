@@ -64,3 +64,11 @@ coming
 
 ### Heltec HTIT-WB32
 coming
+
+## Cambridge Z88
+There is a version of the Feather board for the Cambridge Z88  
+PCB: <https://oshpark.com/shared_projects/KW8gIEbW>  
+BOM: <https://www.digikey.com/short/zfw4vt>  
+![](MounT_Feather_Z88_1.jpg)  
+![](MounT_Feather_Z88_2.jpg)  
+![](MounT_Feather_Z88.svg)  

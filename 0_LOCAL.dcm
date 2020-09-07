@@ -26,6 +26,12 @@ K switch single-pole double-throw spdt ON-ON
 F ~
 $ENDCMP
 #
+$CMP DE9_Male
+D 9-pin male D-SUB connector
+K connector male D-SUB
+F  ~
+$ENDCMP
+#
 $CMP Jumper_2_Bridged
 D Jumper, 2-pole, closed/bridged
 K Jumper SPST
