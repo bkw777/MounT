@@ -25,7 +25,7 @@ U 1 1 5F3C661A
 P 2550 4260
 F 0 "J1" H 2490 4380 60  0000 L CNN
 F 1 "Adafruit_Feather" V 2760 3930 60  0000 L CNN
-F 2 "0_LOCAL:Adafruit_Feather_stagger" H 925 2285 60  0001 L CNN
+F 2 "0_LOCAL:Adafruit_Feather_stagger_4mil" H 925 2285 60  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf" H 925 2385 60  0001 L CNN
 F 4 "Active" H 2750 5460 60  0001 L CNN "Status"
 	1    2550 4260
