@@ -73,3 +73,12 @@ BOM: <https://www.digikey.com/short/zfw4vt>
 ![](MounT_Feather_Z88_1.jpg)  
 ![](MounT_Feather_Z88_2.jpg)  
 ![](MounT_Feather_Z88.svg)  
+
+## TANDY WP-2
+There is a version of the Feather board for the TANDY WP-2  
+PCB: <https://oshpark.com/shared_projects/j4kSufvM>  
+BOM: <https://www.digikey.com/short/z25pz5>  
+![](MounT_Feather_WP-2_1.jpg)  
+![](MounT_Feather_WP-2_2.jpg)  
+![](MounT_Feather_WP-2.svg)  
+

@@ -26,6 +26,12 @@ K switch single-pole double-throw spdt ON-ON
 F ~
 $ENDCMP
 #
+$CMP DE9_Female
+D 9-pin female D-SUB connector
+K connector female D-SUB
+F  ~
+$ENDCMP
+#
 $CMP DE9_Male
 D 9-pin male D-SUB connector
 K connector male D-SUB
