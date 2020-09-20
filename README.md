@@ -81,4 +81,3 @@ BOM: <https://www.digikey.com/short/z25pz5>
 ![](MounT_Feather_WP-2_1.jpg)  
 ![](MounT_Feather_WP-2_2.jpg)  
 ![](MounT_Feather_WP-2.svg)  
-
