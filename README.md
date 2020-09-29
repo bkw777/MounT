@@ -68,7 +68,7 @@ coming
 
 ## Cambridge Z88
 There is a version of the Feather board for the Cambridge Z88  
-PCB: <https://oshpark.com/shared_projects/Ml5O1TZa>  
+PCB: <https://oshpark.com/shared_projects/MZiSy0OD>  
 BOM: <https://www.digikey.com/short/zfw4vt>  
 ![](MounT_Feather_Z88_1.jpg)  
 ![](MounT_Feather_Z88_2.jpg)  
@@ -76,7 +76,7 @@ BOM: <https://www.digikey.com/short/zfw4vt>
 
 ## TANDY WP-2
 There is a version of the Feather board for the TANDY WP-2  
-PCB: <https://oshpark.com/shared_projects/j4kSufvM>  
+PCB: <https://oshpark.com/shared_projects/EvbqpWMV>  
 BOM: <https://www.digikey.com/short/z25pz5>  
 ![](MounT_Feather_WP-2_1.jpg)  
 ![](MounT_Feather_WP-2_2.jpg)  
