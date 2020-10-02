@@ -23,9 +23,9 @@ $Comp
 L 0_LOCAL:Adafruit_Feather J1
 U 1 1 5F3C661A
 P 2550 4260
-F 0 "J1" H 2490 4380 60  0000 L CNN
+F 0 "J1" H 2490 4380 60  0001 L CNN
 F 1 "Adafruit_Feather" V 2760 3930 60  0000 L CNN
-F 2 "0_LOCAL:Adafruit_Feather_stagger_4mil" H 925 2285 60  0001 L CNN
+F 2 "0_LOCAL:Adafruit_Feather_stagger_6mil" H 925 2285 60  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf" H 925 2385 60  0001 L CNN
 F 4 "Active" H 2750 5460 60  0001 L CNN "Status"
 	1    2550 4260
@@ -35,7 +35,7 @@ $Comp
 L Interface_UART:MAX3232 U1
 U 1 1 5F42ADF7
 P 5500 4000
-F 0 "U1" H 5500 4380 50  0000 C CNN
+F 0 "U1" H 5500 4380 50  0001 C CNN
 F 1 "MAX3232" H 5500 4270 50  0000 C CNN
 F 2 "0_LOCAL:SOIC-16_W3.90mm" H 5550 2950 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf" H 5500 4100 50  0001 C CNN
@@ -325,7 +325,7 @@ $Comp
 L 0_LOCAL:DE9_Female J2
 U 1 1 5F04B532
 P 8700 4100
-F 0 "J2" H 8620 5010 50  0000 L CNN
+F 0 "J2" H 8620 5010 50  0001 L CNN
 F 1 "DE9_Female" H 8500 4880 50  0000 L CNN
 F 2 "0_LOCAL:DSUB-9_Female_Vertical_P2.77x2.84mm" H 8700 4100 50  0001 C CNN
 F 3 " ~" H 8700 4100 50  0001 C CNN
