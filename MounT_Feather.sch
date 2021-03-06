@@ -313,9 +313,9 @@ Connection ~ 5500 2700
 Wire Wire Line
 	5500 2700 5500 2600
 Wire Wire Line
-	6300 4300 7400 4300
+	6300 4300 7300 4300
 Wire Wire Line
-	7400 4300 7400 4170
+	7300 4300 7300 4170
 Wire Wire Line
 	7500 3870 7500 4700
 Wire Wire Line
@@ -341,7 +341,7 @@ DSR_TTL
 Text Label 4700 4700 2    50   ~ 0
 DSR_TTL
 Wire Wire Line
-	7400 4170 7770 4170
+	7300 4170 7770 4170
 Wire Wire Line
 	7500 3870 8210 3870
 Wire Wire Line
@@ -399,4 +399,5 @@ F 6 "Manufacturer Recommendations" H 3600 5260 50  0001 L BNN "Field6"
 $EndComp
 Text Notes 2930 2650 2    50   ~ 0
 Adafruit Feather
+NoConn ~ 3400 5160
 $EndSCHEMATC
