@@ -43,7 +43,7 @@ RTS --- /
 ![](MounT_Feather_2.jpg)  
 ![](MounT_Feather.svg)  
 
-PCB: <https://oshpark.com/shared_projects/rDYW4Mxl><br>
+PCB: <https://oshpark.com/shared_projects/61udqrJB>  
 BOM: <https://www.digikey.com/short/zf3z0p>
 
 Adafruit Feather Adalogger boards can be powered by a lipo battery instead of, or as well as, the BCR port adapter (or other usb power source).<br>
@@ -68,7 +68,7 @@ coming
 
 ## Cambridge Z88
 There is a version of the Feather board for the Cambridge Z88  
-PCB: <https://oshpark.com/shared_projects/uIqkDnTB>  
+PCB: <https://oshpark.com/shared_projects/JzfpyaOQ>  
 BOM: <https://www.digikey.com/short/zfw4vt>  
 ![](MounT_Feather_Z88_1.jpg)  
 ![](MounT_Feather_Z88_2.jpg)  
@@ -76,7 +76,7 @@ BOM: <https://www.digikey.com/short/zfw4vt>
 
 ## TANDY WP-2
 There is a version of the Feather board for the TANDY WP-2  
-PCB: <https://oshpark.com/shared_projects/dNUIrHAk>  
+PCB: <https://oshpark.com/shared_projects/67NyaQRs>  
 BOM: <https://www.digikey.com/short/z25pz5>  
 ![](MounT_Feather_WP-2_1.jpg)  
 ![](MounT_Feather_WP-2_2.jpg)  
