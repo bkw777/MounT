@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Teensy MounT - Teensy 3.5, 3.6, 4.1 on Model T"
-Date "2020-08-26"
-Rev ""
-Comp "Brian K. White"
+Date "2021-03-30"
+Rev "v003"
+Comp "Brian K. White - b.kenyon.w@gmail.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -297,7 +297,7 @@ U 1 1 5F4812FB
 P 8470 4020
 F 0 "NT1" H 8480 4060 50  0000 C CNN
 F 1 "Net-Tie_2" H 8500 4130 50  0001 C CNN
-F 2 "0_LOCAL:NetTie-2_SMD_10" H 8470 4020 50  0001 C CNN
+F 2 "0_LOCAL:NetTie-2_SMD_0.2" H 8470 4020 50  0001 C CNN
 F 3 "~" H 8470 4020 50  0001 C CNN
 	1    8470 4020
 	0    -1   -1   0   

@@ -4,10 +4,10 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Feather MounT - Adafruit Feather on Model T serial port"
-Date "2020-08-19"
-Rev ""
-Comp "Brian K. White"
+Title "Feather MounT"
+Date "2021-03-31"
+Rev "003"
+Comp "Brian K. White - b.kenyon.w@gmail.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -359,7 +359,7 @@ U 1 1 5F4812FB
 P 7770 4020
 F 0 "NT1" H 7780 4060 50  0000 C CNN
 F 1 "Net-Tie_2" H 7800 4130 50  0001 C CNN
-F 2 "0_LOCAL:NetTie-2_SMD_10" H 7770 4020 50  0001 C CNN
+F 2 "0_LOCAL:NetTie-2_SMD_0.2" H 7770 4020 50  0001 C CNN
 F 3 "~" H 7770 4020 50  0001 C CNN
 	1    7770 4020
 	0    -1   -1   0   
