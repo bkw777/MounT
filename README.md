@@ -15,7 +15,7 @@ These adapter boards take the place of a serial cable, gender/null-modem adapter
  Olivetti M10  
  Kyotronic KC-85  
 
-There is also one adapter for Adafruit Feather to Cambridge Z88
+There is also one adapter for Adafruit Feather to Cambridge Z88, and one for TANDY WP-2
 
 These adapters employ a staggered row footprint for the pin headers, which acts like a friction fit socket to connect the microcontroller board to the adatpter board without having to solder it permanently and without needing actual sockets.<br>
 This way the microcontroller board is still removable like with a socket, yet low profile as if you had soldered it with no sockets.<br>
@@ -43,7 +43,7 @@ RTS --- /
 ![](MounT_Feather_2.jpg)  
 ![](MounT_Feather.svg)  
 
-PCB from PCBWAY: <https://www.pcbway.com/project/shareproject/Feather_MounT.html> (remember to select ENIG finish unless you're soldering the feather board)
+PCB from PCBWAY: <https://www.pcbway.com/project/shareproject/Feather_MounT.html> (remember to select ENIG finish unless you're soldering the feather board)  
 PCB from OshPark: <https://oshpark.com/shared_projects/61udqrJB>  
 BOM: <https://www.digikey.com/short/zf3z0p>
 
