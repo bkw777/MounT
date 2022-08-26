@@ -39,7 +39,7 @@ RTS --- /
 ## Microcontroller Board Options
 
 ### Adafruit Feather
-![](MounT_Feather_1.jpg)  
+![](MounT_Feather.jpg)  
 ![](MounT_Feather_2.jpg)  
 ![](MounT_Feather.svg)  
 
