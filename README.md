@@ -39,9 +39,9 @@ RTS --- /
 ## Microcontroller Board Options
 
 ### Adafruit Feather
-![](../../raw/main/MounT_Feather.jpg)  
-![](../../raw/main/MounT_Feather_2.jpg)  
-![](../../raw/main/MounT_Feather.svg)  
+![](MounT_Feather.jpg)  
+![](MounT_Feather_2.jpg)  
+![](MounT_Feather.svg)  
 
 PCB from PCBWAY: <https://www.pcbway.com/project/shareproject/Feather_MounT.html> (remember to select ENIG finish unless you're soldering the feather board)  
 PCB from OshPark: <https://oshpark.com/shared_projects/61udqrJB>  
@@ -59,9 +59,9 @@ M0 has a newer more powerful cpu and more ram, but is actually a bit less reliab
 Other feather boards could possibly be used for wifi/rf or general use, but they don't have sd card readers built-in.
 
 ### Teensy 3.5/3.6/4.1
-![](../../raw/main/MounT_Teensy_1.jpg)  
-![](../../raw/main/MounT_Teensy_2.jpg)  
-![](../../raw/main/MounT_Teensy.svg)  
+![](../raw/main/MounT_Teensy_1.jpg)  
+![](../raw/main/MounT_Teensy_2.jpg)  
+![](../raw/main/MounT_Teensy.svg)  
 
 PCB: <https://oshpark.com/shared_projects/4yMVoJ95>  
 BOM: <https://www.digikey.com/short/zfjrd3>  
@@ -84,14 +84,14 @@ coming
 There is a version of the Feather board for the Cambridge Z88  
 PCB: <https://oshpark.com/shared_projects/JzfpyaOQ>  
 BOM: <https://www.digikey.com/short/zfw4vt>  
-![](../../raw/main/MounT_Feather_Z88_1.jpg)  
-![](../../raw/main/MounT_Feather_Z88_2.jpg)  
-![](../../raw/main/MounT_Feather_Z88.svg)  
+![](../raw/main/MounT_Feather_Z88_1.jpg)  
+![](../raw/main/MounT_Feather_Z88_2.jpg)  
+![](../raw/main/MounT_Feather_Z88.svg)  
 
 ## Feather MounT for TANDY WP-2
 There is a version of the Feather board for the TANDY WP-2  
 PCB: <https://oshpark.com/shared_projects/67NyaQRs>  
 BOM: <https://www.digikey.com/short/z25pz5>  
-![](../../raw/main/MounT_Feather_WP-2_1.jpg)  
-![](../../raw/main/MounT_Feather_WP-2_2.jpg)  
-![](../../raw/main/MounT_Feather_WP-2.svg)  
+![](../raw/main/MounT_Feather_WP-2_1.jpg)  
+![](../raw/main/MounT_Feather_WP-2_2.jpg)  
+![](../raw/main/MounT_Feather_WP-2.svg)  
