@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name 0_LOCAL)(type Legacy)(uri ${KIPRJMOD}/0_LOCAL.lib)(options "")(descr ""))
-  (lib (name teensy)(type Legacy)(uri /home/bkw/src/teensy/teensy_library/teensy.lib)(options "")(descr ""))
+  (lib (name "0_LOCAL")(type "KiCad")(uri "${KIPRJMOD}/0_LOCAL.kicad_sym")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "/home/bkw/src/teensy/teensy_library/teensy.kicad_sym")(options "")(descr ""))
+  (lib (name "MounT_Feather_WP-2-rescue")(type "Legacy")(uri "${KIPRJMOD}/MounT_Feather_WP-2-rescue.lib")(options "")(descr ""))
 )

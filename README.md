@@ -10,12 +10,18 @@ You can power the microcontroller board from the computer using a [BCR-USB power
 These adapter boards take the place of a serial cable, gender/null-modem adapters, rs-232/ttl level-shifter module, and breadboard, and let you stick the microcontroller board directly onto the serial port of a TRS-80 Model 100 or any of it's clones.
 
 "Model T" computers are:  
- TRS-80/TANDY Model 100, 102, 200, 600  
+ TRS-80/TANDY Model 100, 102, 200
  NEC PC-8201, PC-8201a, PC-8300  
  Olivetti M10  
  Kyotronic KC-85  
 
-There is also one adapter for Adafruit Feather to Cambridge Z88, and one for TANDY WP-2
+There are at least a few other machines are not in the same family as above but have the same form of serial port that could also use this:  
+ NEC PC-8401 "Starlet", PC-8501  
+ TANDY 600  
+
+There are also a few other variations of the adapter for connecting Adafruit Feather to Cambridge Z88, and for TANDY WP-2.  
+The TANDY WP-2 serial port is actually the same as a standard PC motherboard com port and most usb-serial adapters, so the WP-2 version is also a generic PC adapter.  
+The Cambridge Z88 and the TANDY WP-2 have different serial ports than "Model T", but both machines can use a TPDD drive, and so both machines can use PDDuino.
 
 These adapters employ a staggered row footprint for the pin headers, which acts like a friction fit socket to connect the microcontroller board to the adatpter board without having to solder it permanently and without needing actual sockets.<br>
 This way the microcontroller board is still removable like with a socket, yet low profile as if you had soldered it with no sockets.<br>
@@ -38,10 +44,10 @@ RTS --- /
 
 ## Microcontroller Board Options
 
-### Adafruit Feather
-![](../../raw/main/MounT_Feather.jpg)  
-![](../../raw/main/MounT_Feather_2.jpg)  
-![](../../raw/main/MounT_Feather.svg)  
+### Adafruit Feather to "Model T"
+![](../../raw/main/MounT_K85_Feather.jpg)  
+![](../../raw/main/MounT_K85_Feather.b.jpg)  
+![](../../raw/main/MounT_K85_Feather.svg)  
 
 PCB from PCBWAY: <https://www.pcbway.com/project/shareproject/Feather_MounT.html> (remember to select ENIG finish unless you're soldering the feather board)  
 PCB from OshPark: <https://oshpark.com/shared_projects/61udqrJB>  
@@ -58,10 +64,10 @@ M0 has a newer more powerful cpu and more ram, but is actually a bit less reliab
 32u4 is the older and smaller cpu and less ram, but it actually works perfect for PDDuino.  
 Other feather boards could possibly be used for wifi/rf or general use, but they don't have sd card readers built-in.
 
-### Teensy 3.5/3.6/4.1
-![](../../raw/main/MounT_Teensy_1.jpg)  
-![](../../raw/main/MounT_Teensy_2.jpg)  
-![](../../raw/main/MounT_Teensy.svg)  
+### Teensy 3.5/3.6/4.1 to "Model T"
+![](../../raw/main/MounT_K85_Teensy.jpg)  
+![](../../raw/main/MounT_K85_Teensy.b.jpg)  
+![](../../raw/main/MounT_K85_Teensy.svg)  
 
 PCB: <https://oshpark.com/shared_projects/4yMVoJ95>  
 BOM: <https://www.digikey.com/short/zfjrd3>  
@@ -80,18 +86,16 @@ coming
 
 # These versions fit other computers besides Model 100 and other "Model T's"
 
-## Feather MounT for Cambridge Z88
-There is a version of the Feather board for the Cambridge Z88  
+## Adafruit Feather to Cambridge Z88
+![](../../raw/main/MounT_Z88_Feather.jpg)  
+![](../../raw/main/MounT_Z88_Feather.b.jpg)  
+![](../../raw/main/MounT_Z88_Feather.svg)  
 PCB: <https://oshpark.com/shared_projects/JzfpyaOQ>  
 BOM: <https://www.digikey.com/short/zfw4vt>  
-![](../../raw/main/MounT_Feather_Z88_1.jpg)  
-![](../../raw/main/MounT_Feather_Z88_2.jpg)  
-![](../../raw/main/MounT_Feather_Z88.svg)  
 
-## Feather MounT for TANDY WP-2
-There is a version of the Feather board for the TANDY WP-2  
+## Adafruit Feather to TANDY WP-2 and/or generic PC
+![](../../raw/main/MounT_WP2_Feather.jpg)  
+![](../../raw/main/MounT_WP2_Feather.b.jpg)  
+![](../../raw/main/MounT_WP2_Feather.svg)  
 PCB: <https://oshpark.com/shared_projects/67NyaQRs>  
 BOM: <https://www.digikey.com/short/z25pz5>  
-![](../../raw/main/MounT_Feather_WP-2_1.jpg)  
-![](../../raw/main/MounT_Feather_WP-2_2.jpg)  
-![](../../raw/main/MounT_Feather_WP-2.svg)  
