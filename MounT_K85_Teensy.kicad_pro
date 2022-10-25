@@ -2,12 +2,12 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.0254,
-        "copper_line_width": 0.17779999999999999,
+        "board_outline_line_width": 0.01,
+        "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.2191999999999998,
-        "copper_text_size_v": 1.2191999999999998,
-        "copper_text_thickness": 0.2032,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "copper_text_thickness": 0.15,
         "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
@@ -123,6 +123,7 @@
         0.0,
         0.2,
         0.4,
+        0.5,
         0.6
       ],
       "via_dimensions": [
