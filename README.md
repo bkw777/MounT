@@ -73,7 +73,7 @@ Files with "Teensy" in the name accept Teensy 3.5, 3.6, or 4.1 microcontroller b
 
 [MounT_K85_Feather PCB from PCBWAY](https://www.pcbway.com/project/shareproject/Feather_MounT.html)  
 [MounT_K85_Feather PCB from OSHPark](https://oshpark.com/shared_projects/URa7jGeS)  
-[](MounT_K85_Feather.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/b35fdb5b))
+[MounT_K85_Feather.BOM.csv](MounT_K85_Feather.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/b35fdb5b))
 
 Adafruit Feather boards are the ideal for this.  
 * The pin rows are assymetrical, and so the board as a whole has polarity protection. You physically can't plug it in backwards or upside-down or any way but the correct way.  
@@ -98,7 +98,7 @@ Other Feather boards could possibly be used for wifi/rf or general use, but they
 
 [MounT_K85_Teensy PCB from PCBWAY](https://www.pcbway.com/project/shareproject/Teensy_MounT_32836e10.html)  
 [MounT_K85_Teensy PCB from OSHPark](https://oshpark.com/shared_projects/XVh5R6QG)  
-[](MounT_K85_Teensy.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/fwzdd8v9))
+[MounT_K85_Teensy.BOM.csv](MounT_K85_Teensy.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/fwzdd8v9))
 
 The Teensy 3.5 specifically is particularly interesting for vintage computer projects as it's i/o pins are 5v tolerant. Though this isn't needed   
 The Teensy 3.5/3.6/4.1 are far more powerful and have far more built-in hardware & features, but do have a few downsides compared to Feather.  
@@ -112,7 +112,7 @@ The Teensy does not have any pins wired up to the card-detect pin in the sd card
 ![](../../raw/master/MounT_WP2_Feather.svg)  
 
 <!-- [MounT_WP2_Feather PCB from OSHPark](https://oshpark.com/shared_projects/67NyaQRs)  -->
-[](MounT_WP2_Feather.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/tnb09np7))
+[MounT_WP2_Feather.BOM.csv](MounT_WP2_Feather.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/tnb09np7))
 
 ## Adafruit Feather to Cambridge Z88
 ![](../../raw/master/MounT_Z88_Feather.jpg)  
@@ -120,4 +120,4 @@ The Teensy does not have any pins wired up to the card-detect pin in the sd card
 ![](../../raw/master/MounT_Z88_Feather.svg)  
 
 <!-- [MounT_Z88_Feather PCB from OSHPark](https://oshpark.com/shared_projects/JzfpyaOQ)  -->
-[](MounT_Z88_Feather.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/80rf2r75))
+[MounT_Z88_Feather.BOM.csv](MounT_Z88_Feather.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/80rf2r75))
